@@ -1,6 +1,9 @@
 :root { --paper: #ffffff; }   /* ここだけ変えれば両方変わる */
 
-body { background: var(--paper); }
+body { 
+  background: var(--paper); 
+  font-family: system-ui, -apple-system, "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif;
+}
 
 .deboss{
   margin: 0;
@@ -10,7 +13,7 @@ body { background: var(--paper); }
   line-height: 1;
   color: var(--paper);                          /* 文字→紙と同じ色 */
   text-shadow:
-    -1px -1px 1px rgba(0, 0, 0, 0.25),          /* 左上に暗い影 */
-     1px  1px 1px rgba(255, 255, 255, 0.9);     /* 右下に白い光 */
+    -5px -5px 5px rgba(0, 0, 0, 0.25),          /* 左上に暗い影 */
+     5px  5px 5px rgba(255, 255, 255, 0.9);     /* 右下に白い光 */
      
 }
