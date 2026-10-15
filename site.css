@@ -1,5 +1,9 @@
+:root { --paper: #ffffff; }   /* ここだけ変えれば両方変わる */
+
+body { background: var(--paper); }
+
 .deboss{
-  color: #e9e9e9;                                /* 文字→紙と同じ色 */
+  color: var(--paper);                          /* 文字→紙と同じ色 */
   text-shadow:
     -1px -1px 1px rgba(0, 0, 0, 0.25),          /* 左上に暗い影 */
      1px  1px 1px rgba(255, 255, 255, 0.9);     /* 右下に白い光 */
