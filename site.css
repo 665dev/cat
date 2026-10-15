@@ -3,8 +3,14 @@
 body { background: var(--paper); }
 
 .deboss{
+  margin: 0;
+  font-size: clamp(72px, 22vw, 200px);
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  line-height: 1;
   color: var(--paper);                          /* 文字→紙と同じ色 */
   text-shadow:
     -1px -1px 1px rgba(0, 0, 0, 0.25),          /* 左上に暗い影 */
      1px  1px 1px rgba(255, 255, 255, 0.9);     /* 右下に白い光 */
+     
 }
