@@ -1,6 +1,9 @@
 :root { --paper: #ffffff; }   /* ここだけ変えれば両方変わる */
 
-body { background: var(--paper); }
+body { 
+  background: var(--paper); 
+  font-family: system-ui, -apple-system, "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif;
+}
 
 .deboss{
   margin: 0;
